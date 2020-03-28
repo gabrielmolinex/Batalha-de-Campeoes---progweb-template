@@ -6,7 +6,7 @@
 
 Batalha de Campeões é uma aplicação web onde propõe um Jogo da Velha, buscando trazer um experiência e um conceito diferente em um Jogo da Velha padrão. Tentando buscar emoções nas batalhas e fazer com que os jogadores busquem aprender mais e se tornar um Campeão no jogo.
 
-A Batalha de Campeões traz interações entre os jogadores, com chat, e emotes para a melhor comunicação entre os players. A cada jogada vencida, o jogador recebe pontos onde ao acumular determinada quantidade de pontos, o jogador recebe um lugar no ranking de jogadores. O mesmo acontentece para os que perdem, porém ao invés de ganhar pontos, eles perdem e sua classificação no ranking fica sujeita a descer. 
+A Batalha de Campeões traz interações entre os jogadores, com chat, e emotes para a melhor comunicação entre os players. A cada jogada vencida, o jogador recebe pontos onde ao acumular determinada quantidade de pontos, o jogador recebe um lugar no ranking de maiores pontos. O mesmo acontentece para os que perdem, porém ao invés de ganhar pontos, eles perdem e sua classificação no ranking fica sujeita a descer. 
 
 ## Pré-requisitos
 
