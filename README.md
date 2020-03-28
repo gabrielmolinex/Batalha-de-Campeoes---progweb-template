@@ -34,9 +34,9 @@ Windows (opcional):
 <commandos>
 ```
 
-## Usando Nome_da_Aplicação
+## Batalha de Campeões
 
-Para usar Nome_da_Aplicação, siga os seguintes passos (exemplos):
+Para usar Batalha de Campeões, siga os seguintes passos (exemplos):
 
 * Abra o navegador e digite o seguinte endereço: `http://localhost/....`
 * Ao abrir a aplicação você poderá:
