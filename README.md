@@ -51,7 +51,9 @@ Para usar Batalha de Campeões, siga os seguintes passos (exemplos):
 As seguintes pessoas contribuiram para este projeto:
 
 * [Gabriel da Silva Molina](https://github.com/gabrielmolinex)
-* *.... (liste todos os membros da equipe)*
+* [João Munhóz](https://github.com/JoaoMunhoz01)
+
+
 
 ## Licença de uso
 
