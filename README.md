@@ -50,8 +50,9 @@ Para usar Batalha de Campeões, siga os seguintes passos (exemplos):
 
 As seguintes pessoas contribuiram para este projeto:
 
-* [Gabriel da Silva Molina](https://github.com/gabrielmolinex)
-* [João Munhóz](https://github.com/JoaoMunhoz01)
+* [GABRIEL DA SILVA MOLINA](https://github.com/gabrielmolinex)
+* [JOAO VICTOR MUNHOZ DOS SANTOS](https://github.com/JoaoMunhoz01)
+* [VICTOR HUGO DE AQUINO DESERTO](https://github.com/vdeserto)
 
 
 
