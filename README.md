@@ -23,36 +23,34 @@ Para fazer o deploy da aplicação siga os seguintes passos:
 
 Linux e/ou macOS:
 ```
-<commando 1>
-<commando 2>
-....
-<commando n>
+$ cd Batalha-de-Campeoes---progweb-template
+$ node server.js
 ```
 
 Windows (opcional):
 ```
-<commandos>
+$ cd Batalha-de-Campeoes---progweb-template
+$ node server.js
 ```
 
 ## Batalha de Campeões
 
 Para usar Batalha de Campeões, siga os seguintes passos (exemplos):
 
-* Abra o navegador e digite o seguinte endereço: `http://localhost/....`
-* Ao abrir a aplicação você poderá:
-  * Navegar pelo conteúdo público, ou
-  * Entrar com usuário e senha para ....
-* *Continua ...*  
+* Abra o navegador e digite o seguinte endereço: `http://localhost:3000`
+* Você devera abrir dois navegadores no endereço 'http://localhost:3000'
+  * Pois se trata de um jogo multiplayer e nossa equipe o fez multinavegador
+  * Entrar com nickname para a identificação no chat caso contario ficara como anonimo
+  * Ao realizar sua jogada você devera esperar seu parceiro na outra aba do navegador realizar a dele no final é só apertar o botão de reset*  
 
-*Descreva as principais atividades, e/ou fluxos, que são possíveis de serem realizadas na aplicação.*
+*neste projeto você poderá jogar tic tac toe, conversar no chat contra o adversário e escolher .*
 
 ## Contribuidores
 
 As seguintes pessoas contribuiram para este projeto:
 
 * [GABRIEL DA SILVA MOLINA](https://github.com/gabrielmolinex)
-* [JOAO VICTOR MUNHOZ DOS SANTOS](https://github.com/JoaoMunhoz01)
-* [VICTOR HUGO DE AQUINO DESERTO](https://github.com/vdeserto)
+* [JOAO VICTOR MUNHOZ](https://github.com/JoaoMunhoz01)
 
 
 
