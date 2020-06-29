@@ -1,0 +1,48 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Confortaa" ,sans-serif;
+}
+.login{
+    height: 320px;
+    width: 320px;
+    border: 2px solid #000;
+    border-radius: 80px 0px 80px 0px;
+    color: #fff;
+    background-color: rgba(0, 0, 5, 0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 68px 28px;
+}
+.Nickname{
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 112px;
+
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 21px;
+    border-radius: 80px 80px 80px 80px;
+
+}
+.login button{
+    width: 100%;
+    margin-bottom: 21px;
+    border-radius: 2px solid #000;
+    border-radius: 80px 80px 80px 80px;
+}
+

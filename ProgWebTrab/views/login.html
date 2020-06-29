@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style-login.css" />
+
+    <title>Batalha dos Campeões</title>
+
+    <script src=""></script>
+</head>
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6bAx8fBSFoSg1iF0Pg2r8J31F5P9s4k0c7Q&usqp=CAU">
+    <div class="login">
+        <img src="/img/unnamed-removebg-preview.png"  width="100" height="100" alt="" >
+        
+        <form method="POST">
+            <p>Nickname</p>
+            <input type="text" name="nickname" placeholder="Digite seu Nickname">
+            <button id="myButton" class="float-left submit-button" >Start Game</button>
+        </form>
+        
+
+        <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+        location.href = "/game";
+    };
+</script>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<DOCTYPE html>
+  <html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style-game.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script defer type="text/javascript" src="/js/main.js"></script>
+  </head>
+
+  <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6bAx8fBSFoSg1iF0Pg2r8J31F5P9s4k0c7Q&usqp=CAU">
+    <div class="total">
+      <div class="jogo-space">
+        
+        <div id="game">
+          <div class="line">
+            <div class="position" id="position0"></div>
+            <div class="position" id="position1"></div>
+            <div class="position" id="position2"></div>
+          </div>
+          <div class="line">
+            <div class="position" id="position3"></div>
+            <div class="position" id="position4"></div>
+            <div class="position" id="position5"></div>
+          </div>
+          <div class="line">
+            <div class="position" id="position6"></div>
+            <div class="position" id="position7"></div>
+            <div class="position" id="position8"></div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="vencedor">
+        <div id="winner"><h1>Winner</h1></div>
+        <div id="placar">
+          Empate:<br>
+          Player 1:<br>
+          Player 2:
+        </div>
+        <div class="space"></div>
+        <button type="reset" class=" resetGame">Reset Game</button>
+      </div>
+
+      <div class="bate-papo">
+        Chat da Velha
+        <form id="chat">
+          <div class="messages"></div>
+          <input type="text" name="message" autocomplete="off" placeholder="Digite sua mensagem">
+          <button type="submit">Enviar</button>
+        </form>
+        <script type="text/javascript">
+          var socket = io('localhost:3000');
+
+          const renderMessage = (message) => {
+            $('.messages').append('<div class = "message"><strong>' + message.author + '</strong>: ' + message.message + '</div>');
+          }
+
+          socket.on('previousMessages', (messages) => {
+            for (message of messages) {
+              renderMessage(message);
+            }
+          });
+
+          socket.on('receivedMessage', (message) => {
+            renderMessage(message);
+          })
+
+          $('#chat').submit((event) => {
+            event.preventDefault();
+
+            var author = $('input[name = username]').val();
+            var message = $('input[name = message]').val();
+
+            if(author == null){
+              author = "Anonymous"
+            }
+
+            $('input[name = message]').val("");
+
+            if (author.length && message.length) {
+              var messageObject = {
+                message: message
+              };
+
+              socket.emit('sendMessage', messageObject);
+            }
+          });
+        </script>
+
+      </div>
+
+  </body>
+
+  </html>
+</DOCTYPE>
